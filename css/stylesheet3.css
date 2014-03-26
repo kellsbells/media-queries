@@ -1,0 +1,27 @@
+
+/********** Styles on screens bigger than 700px **********/
+@media screen and (min-width: 700px) {
+
+.logo {
+	display: block;
+	margin: auto;
+}
+.cat {
+	display: none;
+}  
+
+}   
+
+
+/********** Styles on screens smaller than 700px **********/
+@media screen and (max-width: 699px) {
+ 
+ .logo {
+ 	display: none;
+ }
+ .cat {
+ 	display: block;
+ 	margin: auto;
+}
+
+}
